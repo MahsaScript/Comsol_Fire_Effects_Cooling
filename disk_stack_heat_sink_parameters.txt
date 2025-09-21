@@ -1,0 +1,23 @@
+CB_w      150[mm]        Circuit board width
+CB_l      150[mm]        Circuit board length
+CB_t      3[mm]          Circuit board thickness
+IC1_w     50[mm]         IC 1 width
+IC1_l     50[mm]         IC 1 length
+IC1_t     3[mm]          IC 1 thickness
+IC2_w     15[mm]         ICs 2 width
+IC2_l     20[mm]         ICs 2 length
+IC2_t     3[mm]          ICs 2 thickness
+IC3_w     15[mm]         ICs 3 width
+IC3_l     40[mm]         ICs 3 length
+IC3_t     3[mm]          IC2 3 thickness
+P1        20[W]          Power dissipated by IC 1
+P2        1[W]           Power dissipated by ICs 2
+P3        2[W]           Power dissipated by ICs 3
+htc       20[W/(m^2*K)]  Heat transfer coefficient
+T0        273.15[K]      Air flow temperature
+e_fins    0.3[mm]        Fins thickness
+i_radius  5[mm]          Inner radius
+o_radius  25[mm]         Outer radius
+air_sp    3[mm]          Air spacing between sink fins
+n_fins    10             Number of fins
+t_h       air_sp*n_fins  Heat sink tube height
